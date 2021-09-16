@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "store_scraper"
+version = "0.1.0"
+description = "Esse modulo foi criado para criar um minerador de informações sobre lojas em geral."
+authors = ["Bruno Eduardo <beduardo56@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.7.9"
+requests = "^2.26.0"
+bs4 = "^0.0.1"
+lxml = "^4.6.3"
+
+[tool.poetry.dev-dependencies]
+pandas = "^1.1"
+numpy = "."
+selenium = "."
+jupyterlab = "^3.1.11"
+pytest = "^6.2.5"
+pylint = "^2.10.2"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
